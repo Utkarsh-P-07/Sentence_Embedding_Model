@@ -1,8 +1,0 @@
-{
-  "spearman_correlation": null,
-  "num_pairs": null,
-  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
-  "dataset": "stsb",
-  "split": "test",
-  "evaluated": false
-}

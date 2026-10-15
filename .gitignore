@@ -1,0 +1,38 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+.dist/
+*.local
+
+# ML artifacts
+*.pt
+*.bin
+*.onnx
+*.safetensors
+.cache/
+models/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Evaluation results (keep .gitkeep, not actual results)
+backend/evaluation/results/*.json
