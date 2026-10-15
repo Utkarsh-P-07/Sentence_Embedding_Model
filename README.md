@@ -91,3 +91,5 @@ Expected Spearman correlation: ~0.88
 - **Semantic Search**: Rank a list of candidate sentences by relevance to a query
 - **Evaluation Dashboard**: View model performance on STS Benchmark
 - **Model Card**: Full model documentation
+
+<!-- scaffold verified -->
