@@ -13,5 +13,5 @@ class SimilarityRequest(BaseModel):
 
 class SearchRequest(BaseModel):
     query: str = Field(..., min_length=1, description="The search query.")
-    candidates: List[str] = Field(..., min_items=1, description="List of candidate sentences.")
+    candidates: List[str] = Field(..., min_length=1, description="List of candidate sentences.")
     top_k: int = Field(5, ge=1, le=100, description="Number of top results to return.")
